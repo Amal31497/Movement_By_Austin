@@ -1,0 +1,92 @@
+.sanwichMenuWrapper{
+    min-width:75px;
+    width:15%;
+    height:fit-content;
+    display: block;
+    align-items: center;
+    padding:5%;
+}
+
+.sanwichMenuWrapper:hover{
+    cursor: pointer;
+}
+
+.sanwichMenuEl{
+    height:3.5px !important;
+    margin-bottom:2.5px;
+    width:100% !important;
+    border-radius:10rem;
+    background-color: white !important;
+}
+
+
+.phoneNavigationModal{
+    position:absolute;
+    height:400px;
+    background-color:maroon;
+    right:0;
+    top:5rem;
+
+    animation-name:showPhoneNavigationModal;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showPhoneNavigationModal {
+    from {
+        opacity:0%;
+        width:0px;
+    } to {
+        opacity:100%;
+        width:200px;
+    }   
+}
+
+
+#sanwichMenuFirstClicked{
+    animation-name:transformFirst;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transformFirst {
+    from {
+    } to {
+        transform:translateY(6px) rotate(45deg);
+    }
+}
+
+#sanwichMenuSecondClicked{
+    animation-name:transformSecond;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transformSecond {
+    from {
+        opacity:100%;
+    } to {
+        opacity:0%;
+    }
+}
+
+#sanwichMenuThirdClicked{
+    animation-name:transformThird;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transformThird {
+    from {
+    } to {
+        transform:translateY(-6px) rotate(-45deg);
+    }
+}

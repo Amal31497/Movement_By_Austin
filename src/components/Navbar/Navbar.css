@@ -1,0 +1,53 @@
+.navbar-wrapper{
+    display:flex;
+    justify-content:space-around;
+    width:100vw;
+    height:5rem;
+    align-items: center;
+    background-color: maroon;
+    color:white;
+    position:relative;
+}
+
+.navbar-logo{
+    height:60px !important;
+    width:75px !important;
+}
+
+.navbar-logo-wrapper{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.navbar-logo-wrapper>img{
+    padding-right:20px;
+}
+
+.navbar-links-wrapper{
+    display:flex;
+    justify-content:flex-start;
+    width:30%;
+}
+
+.navbar-links-wrapper>h4{
+    display: flex;
+    justify-content: center;
+    width:200px;
+}
+
+h4:hover{
+    cursor: pointer;
+    animation-name:hoverButton;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverButton {
+    from {
+    } to {
+        color:black;
+        font-weight:900;
+    }
+}

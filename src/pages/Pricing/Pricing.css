@@ -1,0 +1,118 @@
+.pricingWrapper{
+    height:fit-content;
+}
+
+.divider{
+    height:1px;
+    width:80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:5px;
+}
+
+.pricingTitle{
+    margin-top:3%;
+    font-weight:900;
+}
+
+.pricingCardWrapper{
+    height:fit-content;
+    width: 100%;
+    margin-top:4% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+
+.pricingCardShell{
+    height:550px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:10px;
+}
+
+.pricingCard{
+    color:white;
+    height:95%;
+    width:99%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    position:relative !important;
+    
+}
+
+.pricingCardText{
+    text-align: left;
+    width:90%;
+    padding-left:10%;
+}
+
+.pricingCardTitle{
+    font-weight: 700;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.costBreakdown{
+    font-weight: 600;
+    position:absolute !important;
+    right:10%;
+    bottom:4%;
+}
+
+.costBreakdown:hover{
+    cursor:pointer;
+    animation-name:hoverCostBreakdown;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverCostBreakdown {
+    from {
+    } to {
+        transform: translateX(3px);
+    }   
+}
+
+#mobilityStretching-1{
+    background:    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(48, 1, 1, 0.856)
+      ), url("../../resources/stretching-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+#home-pt-1{
+    background:    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(48, 1, 1, 0.856)
+      ), url("../../resources/home-pt-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+#gym-1{
+    background:    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(48, 1, 1, 0.856)
+      ), url("../../resources/gym-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+#gym-2{
+    background:    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(48, 1, 1, 0.856)
+      ), url("../../resources/gym-2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}

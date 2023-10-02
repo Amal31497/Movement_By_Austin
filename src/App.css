@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+h3{
+  font-size: 22px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4{
+  font-size: 18px !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
