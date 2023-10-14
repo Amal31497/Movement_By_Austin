@@ -26,6 +26,7 @@
     background-color:maroon;
     right:0;
     top:5rem;
+    z-index: 100;
 
     animation-name:showPhoneNavigationModal;
     animation-iteration-count: 1;

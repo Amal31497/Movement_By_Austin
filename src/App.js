@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.js";
+import Footer from "./components/Footer/Footer.js";
 import Home from "./pages/Home/Home.js";
 import HomeGym from "./pages/HomeGym/HomeGym.js";
 import Pricing from "./pages/Pricing/Pricing.js";

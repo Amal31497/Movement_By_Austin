@@ -1,0 +1,142 @@
+.homeGymWrapper{
+    height:fit-content;
+    min-height:100vh;
+}
+
+.pricingCardTitleBlack{
+    margin-top:3%;
+    font-weight:900;
+    text-align: center !important;
+    color:black;
+}
+
+.pricingCardTitleInfoBlack{
+    font-weight:800;
+    color:black;
+}
+
+.pricingCardBodyImage{
+    max-height:80%;
+    height:fit-content;
+    width:35%;
+}
+
+.pricingCardBodyInfo{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:95%;
+    height:100%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.pricingCardBodyInfoText{
+    color:black;
+    font-weight:500;
+    width:40%;
+    text-align: left;
+    line-height: 40%;
+}
+
+.pricingCardBodyInfoTextTitle{
+    font-weight:800;
+    text-decoration: underline;
+    line-height: normal;
+}
+
+.pricingCardBodyInfoLink{
+    padding:1.5px 0px;
+    font-weight:600;
+    font-style: oblique;
+    border-radius:1rem;
+    color:black;
+    text-decoration: underline;
+}
+
+.pricingCardBodyInfoLink:hover{
+    cursor:pointer;
+    animation-name:hoverLink;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverLink {
+    from {
+    } to {
+        padding:1.5px 10px;
+        color:maroon;
+    }   
+}
+
+#tier-1{
+    position: relative;
+    border:none;
+}
+
+#tier-2{
+    position: relative;
+    border:none;
+}
+
+#tier-3{
+    position: relative;
+    border:none;
+}
+
+#tier-4{
+    position: relative;
+    border:none;
+}
+
+.next{
+    position: absolute;
+    bottom:0%;
+    right:3.5%;
+    color:black;
+}
+
+.next:hover{
+    cursor: pointer;
+    font-weight: 800;
+    animation-name:hoverNext;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverNext {
+    from {
+
+    } to {
+        transform:translateX(8%);
+    }   
+}
+
+.prev{
+    position: absolute;
+    bottom:0%;
+    left:3.5%;
+    color:black;
+}
+
+.prev:hover{
+    cursor: pointer;
+    font-weight: 800;
+    animation-name:hoverPrev;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-duration:0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverPrev {
+    from {
+
+    } to {
+        transform:translateX(-8%);
+    }   
+}

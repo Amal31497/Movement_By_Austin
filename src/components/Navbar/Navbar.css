@@ -19,6 +19,10 @@
     justify-content:flex-start;
 }
 
+.navbar-logo-wrapper:hover{
+    cursor:pointer;
+}
+
 .navbar-logo-wrapper>img{
     padding-right:20px;
 }

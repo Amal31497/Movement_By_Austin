@@ -36,7 +36,7 @@ function Navbar(){
 
     return (
         <div className="navbar-wrapper">
-            <div className="navbar-logo-wrapper">
+            <div className="navbar-logo-wrapper" onClick={goToHome}>
                 <img className="navbar-logo" src={logo} />
                 <h3><b>Movement by Austin</b></h3>
             </div>
