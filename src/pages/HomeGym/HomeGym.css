@@ -16,6 +16,7 @@
 }
 
 .pricingCardBodyImage{
+    max-height:80%;
     height:fit-content;
     width:45%;
     position:absolute !important;
