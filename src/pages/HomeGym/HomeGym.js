@@ -1,23 +1,22 @@
 import React, { useState } from "react";
+import { GrNext, GrPrevious } from 'react-icons/gr';
 import Footer from "../../components/Footer/Footer";
-import "./HomeGym.css";
-import { GrNext } from 'react-icons/gr';
-import { GrPrevious } from 'react-icons/gr';
-
-
-
-import dumbbells from "../../resources/dumbbells.jpg";
-import bosu_ball from "../../resources/bosu_ball.webp";
-import yoga_mat from "../../resources/yoga_mat.webp";
-import bench from "../../resources/bench.webp";
-import kettlebell from "../../resources/kettlebell.jpg";
 import bands from "../../resources/bands.webp";
-import storage from "../../resources/storage.avif";
-import rack from "../../resources/squat_rack.avif";
 import barbell from "../../resources/barbell.jpeg";
-import plates from "../../resources/plates.webp";
+import bench from "../../resources/bench.webp";
+import bosu_ball from "../../resources/bosu_ball.webp";
+import dumbbells from "../../resources/dumbbells.jpg";
+import kettlebell from "../../resources/kettlebell.jpg";
 import strength_package from "../../resources/package.webp";
+import plates from "../../resources/plates.webp";
+import rack from "../../resources/squat_rack.avif";
+import storage from "../../resources/storage.avif";
 import trx from "../../resources/trx.jpg";
+import yoga_mat from "../../resources/yoga_mat.webp";
+import "./HomeGym.css";
+
+
+
 
 function HomeGym() {
 
@@ -76,7 +75,7 @@ function HomeGym() {
                                                 <p className="pricingCardBodyInfoTextTitle">Yoga Mat</p>
                                                 <p>Price : $20</p>
                                                 <p>Brand : Amazon</p>
-                                                <p>73.2"L x 24.3"W</p>
+                                                <p>Dimensions : 73.2"L x 24.3"W</p>
                                                 <a className="pricingCardBodyInfoLink" href="https://a.co/d/ax4Ri7G" target="blank">Link <GrNext size="14" /></a>
                                             </div>
                                             <img className="pricingCardBodyImage" src={yoga_mat} />
