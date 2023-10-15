@@ -74,7 +74,7 @@ function Pricing() {
                                 <p className="pricingCardText"><LuDumbbell /> Instruction and demonstration on active stretching and mobility</p>
                                 <p className="pricingCardText"><LuDumbbell /> Construction of an at home mobility routine</p>
                                 <p className="pricingCardText"><LuDumbbell /> Guidance on how to use resistance bands to aid in mobility training</p>
-                                <p className="pricingCardText"><LuDumbbell /> Integration of ctive and passive stretching techniques</p>
+                                <p className="pricingCardText"><LuDumbbell /> Integration of active and passive stretching techniques</p>
                                 <p className="costBreakdown" onClick={() => setSecondCard("price")}><BiDollarCircle size="40" /></p>
                             </div>
                             :
