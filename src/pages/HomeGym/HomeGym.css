@@ -25,6 +25,7 @@
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: left top, left bottom;
     bottom:10% !important;
+    right:2%;
 }
 
 .pricingCardBodyInfo{
