@@ -16,9 +16,9 @@
 }
 
 .pricingCardBodyImage{
-    max-height:65%;
-    height:fit-content;
-    width:45%;
+    max-width:35%;
+    object-fit: contain;
+    overflow: hidden;
     position:absolute !important;
     -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
     -webkit-mask-size: 100% 100%;
