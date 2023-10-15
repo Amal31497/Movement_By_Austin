@@ -26,7 +26,7 @@ function Pricing() {
                 <div className="pricingCardShell col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div className="pricingCard" id="home-pt-1">
                         <div className="pricingCardHeader">
-                            <p className="pricingCardTitle">Home Personal Training</p>
+                            <p className="pricingCardTitle">In Home Personal Training</p>
                             <div className="divider"></div>
                             <p className="pricingCardTitleInfo"> <LuTimer /> 60m / <BsFillPersonFill /> </p>
                         </div>
@@ -65,7 +65,7 @@ function Pricing() {
                 <div className="pricingCardShell col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div className="pricingCard" id="mobilityStretching-1">
                         <div className="pricingCardHeader">
-                            <p className="pricingCardTitle">Home Mobility/Stretching</p>
+                            <p className="pricingCardTitle">Mobility/Stretching</p>
                             <div className="divider"></div>
                             <p className="pricingCardTitleInfo"> <LuTimer />  60m / <BsFillPersonFill /></p>
                         </div>
@@ -74,7 +74,7 @@ function Pricing() {
                                 <p className="pricingCardText"><LuDumbbell /> Instruction and demonstration on active stretching and mobility</p>
                                 <p className="pricingCardText"><LuDumbbell /> Construction of an at home mobility routine</p>
                                 <p className="pricingCardText"><LuDumbbell /> Guidance on how to use resistance bands to aid in mobility training</p>
-                                <p className="pricingCardText"><LuDumbbell /> Active and passive stretching techniques</p>
+                                <p className="pricingCardText"><LuDumbbell /> Integration of ctive and passive stretching techniques</p>
                                 <p className="costBreakdown" onClick={() => setSecondCard("price")}><BiDollarCircle size="40" /></p>
                             </div>
                             :
@@ -103,7 +103,7 @@ function Pricing() {
                 <div className="pricingCardShell col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div className="pricingCard" id="gym-1">
                         <div className="pricingCardHeader">
-                            <p className="pricingCardTitle">Gym Personal Training</p>
+                            <p className="pricingCardTitle">One-on-one Personal Training</p>
                             <div className="divider"></div>
                             <p className="pricingCardTitleInfo"> <LuTimer />  60m / <BsFillPersonFill /></p>
                         </div>
@@ -143,7 +143,7 @@ function Pricing() {
                 <div className="pricingCardShell col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div className="pricingCard" id="gym-2">
                         <div className="pricingCardHeader">
-                            <p className="pricingCardTitle">Gym Personal Training</p>
+                            <p className="pricingCardTitle">Two-on-one Personal Training</p>
                             <div className="divider"></div>
                             <p className="pricingCardTitleInfo"> <LuTimer />  60m / <BsFillPersonFill /><BsFillPersonFill /></p>
                         </div>
@@ -188,12 +188,15 @@ function Pricing() {
                 <div className="pricingDisclaimerBox">
                     <p className="pricingDisclaimerBoxText"><PiWarningCircle size="22"  size="22" /> Nutrition counseling sessions available upon request</p>
                     <p className="pricingDisclaimerBoxText">
-                        <PiWarningCircle size="22"  /> Personal training service options
-                        will be paid in full at the
-                        beginning of every 4 week period
+                        <PiWarningCircle size="22"  /> Personal training services must be paid in full at the beginning of every 4 week period under 4 week commitments
                     </p>
-                    <p className="pricingDisclaimerBoxText"><PiWarningCircle size="22"  /> Cancellation policy: any personal training sessions that need to be canceled will
-                        be banked for future use regardless of 24 hour notice</p>
+                    <p className="pricingDisclaimerBoxText">
+                        <PiWarningCircle size="22"  /> Personal training 4 week commitments must be paid in full 24 hours priod to the beginning of a new 4 week allotment of sessions
+                    </p>
+                    <p className="pricingDisclaimerBoxText"><PiWarningCircle size="22"  /> Cancellation of commitment at any time is allowed but remaining sessions will need to be serviced or surrendered</p>
+                    <p className="pricingDisclaimerBoxText">
+                        <PiWarningCircle size="22"  /> Cancellation policy: any personal training sessions that need to be canceled/rescheduled will be banked for future use regardless of 24 hour notice
+                    </p>
                 </div>
             </div>
             <Footer />

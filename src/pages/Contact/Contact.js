@@ -29,8 +29,8 @@ function Contact(){
                     <input type="email" name="from_email" placeholder="youremail@email.com"/>
                     <label>Phone</label>
                     <input type="text" name="subject" placeholder="(123)-456-7890"/>
-                    <label>Anything you want to share</label>
-                    <textarea name="html_message" placeholder="Anything" id="messageArea"/>
+                    <label>Your fitness and wellness goals</label>
+                    <textarea name="html_message" placeholder="Please be as detailed as possible" id="messageArea"/>
                     <input type="submit" value="Send" id="sendButton" />
                 </form>
             </div>

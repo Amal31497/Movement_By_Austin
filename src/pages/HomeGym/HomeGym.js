@@ -43,7 +43,7 @@ function HomeGym() {
                             <div className="pricingCardBody">
                                 <div className="pricingCardBodyInfo">
                                     <div className="pricingCardBodyInfoText">
-                                        <p className="pricingCardBodyInfoTextTitle">Adjustable dumbbells</p>
+                                        <p className="pricingCardBodyInfoTextTitle">Adjustable Dumbbells</p>
                                         <p>Price : $300</p>
                                         <p>Brand : ProForm</p>
                                         <p>Weight : 50lbs</p>
@@ -112,7 +112,7 @@ function HomeGym() {
                             <div className="pricingCardBody">
                                 <div className="pricingCardBodyInfo">
                                     <div className="pricingCardBodyInfoText">
-                                        <p className="pricingCardBodyInfoTextTitle">Adjustable dumbbells</p>
+                                        <p className="pricingCardBodyInfoTextTitle">Adjustable Dumbbells</p>
                                         <p>Price : $300</p>
                                         <p>Brand : ProForm</p>
                                         <p>Weight : 50lbs</p>
@@ -234,7 +234,7 @@ function HomeGym() {
                                     <div className="pricingCardBody">
                                         <div className="pricingCardBodyInfo">
                                             <div className="pricingCardBodyInfoText">
-                                                <p className="pricingCardBodyInfoTextTitle">Weight storage</p>
+                                                <p className="pricingCardBodyInfoTextTitle">Weight Storage</p>
                                                 <p>Price : $645</p>
                                                 <p>Brand : Rogue</p>
                                                 <p>L : 76.5"</p>
@@ -283,7 +283,7 @@ bell/430367.html" target="blank">Link <GrNext size="14" /></a>
                                             <div className="pricingCardBody">
                                                 <div className="pricingCardBodyInfo">
                                                     <div className="pricingCardBodyInfoText">
-                                                        <p className="pricingCardBodyInfoTextTitle">Barbell plates set</p>
+                                                        <p className="pricingCardBodyInfoTextTitle">Barbell Bumper Plate Set</p>
                                                         <p>Price : $420</p>
                                                         <p>Brand : Titan</p>
                                                         <p>Diameter : 17.75-in</p>
@@ -328,7 +328,7 @@ bell/430367.html" target="blank">Link <GrNext size="14" /></a>
                                 <div className="pricingCardBody">
                                     <div className="pricingCardBodyInfo">
                                         <div className="pricingCardBodyInfoText">
-                                            <p className="pricingCardBodyInfoTextTitle">Weight storage</p>
+                                            <p className="pricingCardBodyInfoTextTitle">Weight Storage</p>
                                             <p>Price : $645</p>
                                             <p>Brand : Rogue</p>
                                             <p>L : 76.5"</p>

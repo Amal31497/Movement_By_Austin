@@ -29,23 +29,27 @@
 
 .pricingCardWrapper{
     height:fit-content;
-    width: 90%;
+    width: 96%;
     margin-top:3% !important;
     margin-left:auto !important;
     margin-right:auto !important;
 }
 
 .pricingCardShell{
+    max-width:600px !important;
+    min-height:550px;
     height:500px;
     display:flex;
     justify-content:center;
     align-items: center;
     padding:10px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .pricingCard{
     color:white;
-    height:95%;
+    height:100%;
     width:99%;
     border: 1px solid black;
     border-radius: 1rem;
@@ -62,6 +66,7 @@
         border-radius: 25% 75% 25% 75% / 76% 21% 79% 24% ;
     } to {
         border-radius: 3% 97% 3% 97% / 97% 3% 97% 3%   ;
+        /* border-radius:1rem; */
     }   
 }
 
@@ -101,6 +106,7 @@
 
 .pricingCardBody{
     height:65%;
+    margin-top:3%;
     display: flex;
     flex-direction: column;
     align-items: center !important;
@@ -127,6 +133,12 @@
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     padding:3%;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 400px){
+    .pricingPackageWrapper{
+        border:none;
+    }
 }
 
 .pricingCardTitleInfo{

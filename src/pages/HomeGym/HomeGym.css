@@ -16,16 +16,18 @@
 }
 
 .pricingCardBodyImage{
+    max-height:80%;
     max-width:35%;
     object-fit: contain;
     overflow: hidden;
     position:absolute !important;
-    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+    filter:blur(1px);
+    /* -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
     -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: left top, left bottom;
+    -webkit-mask-position: left top, left bottom; */
     bottom:10% !important;
-    right:2%;
+    right:10%;
 }
 
 .pricingCardBodyInfo{
